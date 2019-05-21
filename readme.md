@@ -1,6 +1,6 @@
 # awsdyndns
 
-Awsdyndns is a dynamic dns tool that uses Rout53. The way I use this is by setting it up on a RaspberryPi running and running this program on a 10 minute cron.
+Awsdyndns is a dynamic dns tool that uses Route53. The way I use this is by setting it up on a RaspberryPi running and running this program on a 10 minute cron.
 
 The program updates a target dns hostname `my.host.com.` with the current public IP address of the computer that is calling it.
 
