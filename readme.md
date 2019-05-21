@@ -1,6 +1,6 @@
 # awsdyndns
 
-This is a dynamic dns tool for AWS. Its usual
+This is a dynamic dns tool for AWS.
 
 ### Building
 ```
