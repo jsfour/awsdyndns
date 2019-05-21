@@ -1,6 +1,10 @@
 # awsdyndns
 
-This is a dynamic dns tool for AWS.
+Awsdyndns is a dynamic dns tool that uses Rout53. The way I use this is by setting it up on a RaspberryPi running and running this program on a 10 minute cron.
+
+The program updates a target dns hostname `my.host.com.` with the current public IP address of the computer that is calling it.
+
+Public IP is attained via [ipify](https://www.ipify.org/).
 
 ### Building
 ```
@@ -16,8 +20,6 @@ Once you have configured the `AWS_ACCESS_KEY`, and `AWS_SECRET_KEY` environment 
 $ awsdyndns -d my.host.com. -z ZONEID
 Updating dns
 ```
-
-The way I use this is by setting it up on a RaspberryPi running a cron.
 
 ### Help
 ```
