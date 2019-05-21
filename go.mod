@@ -1,4 +1,4 @@
-module github.com/jsfour/awsdyndns
+module github.com/jsfour/awsdyndns/v1
 
 go 1.12
 
