@@ -29,10 +29,8 @@ Usage of awsdyndns:
 
 
 ### Required environment variables:
-```
 | Variable |
 |----------|
 | AWS_ACCESS_KEY |
 | AWS_SECRET_KEY |
-```
 
