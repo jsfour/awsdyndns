@@ -12,6 +12,7 @@ Download the [latest release for your system](https://github.com/jsfour/awsdyndn
 ```
 cd ~/Downloads
 curl -O https://github.com/jsfour/awsdyndns/releases/download/v1/awsdyndns-v1-darwin-amd64
+chmod +x awsdyndns-v1-darwin-amd64
 sudo mv ./awsdyndns-v1-darwin-amd64 /usr/local/bin/awsdyndns
 awsdyndns -h
 ```
