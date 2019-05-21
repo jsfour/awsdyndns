@@ -4,7 +4,11 @@ Awsdyndns is a [dynamic dns](https://en.wikipedia.org/wiki/Dynamic_DNS) tool tha
 
 Public IP is attained via [ipify](https://www.ipify.org/).
 
-### Building
+## Installing
+
+Download the [latest release for your system](https://github.com/jsfour/awsdyndns/releases).
+
+### Building from source
 ```
 git clone git@github.com:jsfour/awsdyndns.git
 cd awsdyndns
