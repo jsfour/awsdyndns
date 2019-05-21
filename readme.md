@@ -2,7 +2,7 @@
 
 Awsdyndns is a [dynamic dns](https://en.wikipedia.org/wiki/Dynamic_DNS) tool that updates a Route53 hostname with the current public IP of the caller. The way I use awsdyndns is by installing it on a RaspberryPi and running the program on a 10 minute cron.
 
-Public IP is attained via [ipify](https://www.ipify.org/).
+Public IP is obtained via [ipify](https://www.ipify.org/).
 
 ## Installing
 
